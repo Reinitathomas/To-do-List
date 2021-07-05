@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple To Do List</title>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+</head>
+<body>
+
+<!-- ..............................................division 1....................................... -->
+
+<div class="division-1" style="background-image: url(images/disp.png);">
+
+    <nav>
+        <h1>To-Do List</h1>
+        <div class="nav-l">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <!-- <li><a href="blog.html">Blog</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+        </div>
+    </nav>
+
+<div class="text-box">
+    <br>
+    <!-- <div class="plans"><b>What are your <br> plans for today?<br><button class="btn1">Get started</button></b></div> -->
+    <div class="plans"><b>What are your <br> plans for today?<br> <a class="btn1" href="#getstarted">Get Started</a></b></div>
+
+    <img class="todo" src="images/todo.png" alt="todo" >
+    <br><br><br>
+</div>
+<br>
+<br>
+<br>
+</div>
+
+<!-- ..............................................division 2....................................... -->
+
+<div class="division-2" style="margin-top: -30px;" id="getstarted">
+    <br>
+<div class="container1">
+    <div class="box"><img class="image" src="images/meetings.png" alt="meetings"><button class="btn"><a href="meetings.html">Meetings</a></button></div>
+    <div class="box"><img class="image" src="images/learning.png" alt="learning"><button class="btn"><a href="learning.html">Learning</a></button></div>
+    <div class="box"><img class="image" src="images/groceries.png" alt="Groceries"><button class="btn"><a href="groceries.html">Grocery</a></button></div>
+    <div class="box"><img class="image" src="images/shopping.png" alt="shopping"><button class="btn"><a href="shopping.html">Shopping</a></button></div>
+</div>
+<div class="container1">
+    <div class="box"><img class="image" src="images/personal.png" alt="personal"><button class="btn"><a href="personal.html">Personal</a></button></div>
+    <div class="box"><img class="image" src="images/cleaning.png" alt="cleaning"><button class="btn"><a href="cleaning.html">Cleaning</a></button></div>
+    <div class="box"><img class="image" src="images/work.png" alt="work"><button class="btn"><a href="work.html">Work</a></button></div>
+    <div class="box"><img class="image" src="images/more.png" alt="more"><button class="btn"><a href="more.html">More</a></button></div>
+</div>
+<br>
+</div>
+
+<!-- ..............................................division 3....................................... -->
+
+<div class="division-3" style="margin-top: -30px; ">
+<div id="about" class="container2">
+    <h1 style="letter-spacing: 3px;">About</h1>
+    <br><br><br>
+    <h3>What is To-Do List?</h3>
+    <br><br>
+    <p class="para">We have a lot of choices to help us keep track of daily obligations. A simple list on paper of things “To-Do” is
+        enough for some people. It is, ofcourse, important to make sure that the overall target,
+        for example, of submitting your tax return, does not get lost.You can get round that by making sure
+        that you write the next step on your overall list as you tick each previous step off.
+    </p>
+    <br><br><br>
+    <h3>Why To-Do List?</h3>
+    <br><br>
+    <p class="para">To-Do lists work for one main reason:
+
+        We tend to worry about things that we have left uncompleted
+        Our brains like things to be finished off and tidy, which means that we worry about things that need doing.
+         That ought to mean that making a list of things to do makes us more worried,
+         but it turns out that it actually tricks the brain into thinking that the task has been done.
+
+        In other words, writing things down on a to-do list means that you stop worrying, and actually have
+         time to prioritise and then complete your tasks.
+    </p>
+    <br><br><br>
+    <h3 style="font-size: 45px;">Contributors</h3>
+    <br>
+    <div class="container3">
+    <div style="background-color: #B6C9F0;" class="box1"><h2 class="name_tag">  Reinita <br> Thomas</h2></div>
+    <div style="background-color: #B6C9F0;" class="box1"><h2 class="name_tag">Muppala <br> Mona <br> Sree</h2></div>
+    <div style="background-color: #B6C9F0;" class="box1"><h2 class="name_tag">D <br> Jaisnavi </h2></div>
+    <div style="background-color: #B6C9F0;" class="box1"><h2 class="name_tag">M <br> Monika</h2></div>
+    </div>
+
+</div>
+</div>
+
+<!-- ..............................................division 4....................................... -->
+
+<div class="division-3" id="contact">
+    <br><br>
+  <h1 style="letter-spacing: 5px; font-size: 60px; margin-left: 300px; color: black; opacity: 0.7;">Contact Us</h1>
+  <img class="contact" src="images/contact.png" alt="contact">
+  <form class="contact_form" action="mailto:dummy104user@gmail.com" method="post" enctype="text/plain">
+
+  <input class="text" type="text" value="Your Name" onfocus="if (this.value == 'Your Name') {this.value=''}" /><br>
+
+  <input class="email" type="text" value="Your Email" onfocus="if (this.value == 'Your Email') {this.value=''}" /><br>
+
+  <textarea class="text_box" name="yourMessage" cols="60" rows="15"></textarea><br>
+
+  <input class="submit_btn" type="submit" name="">
+
+  </form>
+  <br><br><br>
+  <div class="division-3">
+    <a href="mailto:dummy104user@gmail.com" ><img class="gmail" src="images/gmail.png" alt="gmail"></a>
+    <a href="https://www.linkedin.com/in/reinita-thomas-27876b1b5/" ><img class="linkedin" src="images/linkedin.png" alt="linkedin"></a>
+    <a href="https://www.facebook.com/reinita.thomas" ><img class="facebook" src="images/facebook.png" alt="facebook"></a>
+    <a href="https://www.instagram.com/" ><img class="instagram" src="images/instagram.png" alt="instagram"></a>
+    <a href="https://www.youtube.com/" ><img class="youtube" src="images/youtube.png" alt="youtube"></a>
+  </div>
+  <br><br>
+</div>
+
+</body>
+</html>
